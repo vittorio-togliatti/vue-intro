@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+   
+      <script src="https://unpkg.com/vue"></script>
+      
+      
+  </head>
+  <body>
+        <div id="app-4">
+          <ol>
+            <li v-for="todo in todos">
+              {{ todo.text }}
+            </li>
+          </ol>
+        </div>
+    <button onclick="app4.todos.push({ text: 'New item in app' })">Add in app4</button>
+      
+    <button onclick="myData.todos.push({ text: 'New item in dataobject' })">Add in data object</button>
+       
+    <p> </p><br/>
+    <p> </p><br/>
+    <p> </p><br/>
+      
+    <button onclick="window.location='page5.html'">Ejemplo 5</button>
+    <script src="js/main4.js"></script>
+  </body>
+</html>
